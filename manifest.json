@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Solution Saver",
+  "version": "1.0",
+  "description": "Save LeetCode solutions to GitHub",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

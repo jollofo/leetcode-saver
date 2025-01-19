@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+      input,
+      button {
+        margin: 5px 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>LeetCode Solution Saver</h3>
+    <input
+      type="text"
+      id="githubToken"
+      placeholder="GitHub Personal Access Token"
+    />
+    <input type="text" id="repoOwner" placeholder="GitHub Username" />
+    <input type="text" id="repoName" placeholder="Repository Name" />
+    <button id="saveSettings">Save Settings</button>
+    <button id="saveSolution">Save Current Solution</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

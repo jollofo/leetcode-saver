@@ -1,3 +1,5 @@
+// 2aee40a83dadb69c5d53d7b7a738eae6cc90715b
+
 chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
   if (request.action === "getSolution") {
     // Get problem details
